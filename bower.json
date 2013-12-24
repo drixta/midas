@@ -1,0 +1,24 @@
+{
+  "name": "midas",
+  "version": "0.0.0",
+  "authors": [
+    "Quan Pham <drixta@gmail.com>"
+  ],
+  "description": "Midas Clicking",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~1.8.1",
+    "angular": "~1.2.6",
+    "grunt": "~0.4.2",
+    "mocha": "~1.16.2"
+  }
+}
