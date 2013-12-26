@@ -73,5 +73,5 @@ module.exports = function (grunt) {
 
   	grunt.registerTask('test', ['mocha']);
     grunt.registerTask('opt', ['concat','uglify']);
-  	grunt.registerTask('default', ['test','concat','connect','watch']);
+  	grunt.registerTask('default', ['concat','connect','watch']);
 };
